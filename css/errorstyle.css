@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+
+    background: #9ce3e9;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+button {
+    background: #62a7ad;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+    height: 72px;
+    width: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all .3s cubic-bezier(.6,0,.4,1);
+}
+
+button:hover {
+    background: #4a7d81;
+}

@@ -1,0 +1,48 @@
+*{
+    font-family: "Germania One";
+}
+
+body {
+    margin: 0;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #9ce3e9;
+}
+
+canvas {
+    border: 1px solid #000;
+    border-radius: 15px;
+    background: url('../img/bg.jpg'); 
+}
+
+.results {
+    position: absolute;
+    text-align: center;
+}
+
+.results__title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.results__content {
+    display: inline-block;
+    text-align: left;
+}
+
+#exit {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.share {
+    font-family: "Germania One";
+    font-weight: bold;
+    font-size: 20px;
+}
