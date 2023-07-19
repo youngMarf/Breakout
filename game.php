@@ -143,38 +143,34 @@
         <a href="php/exit.php"><img src="img/exit.png" alt="" id="exit"></a>
     </div>
 
-    <div class="pauseMenu" id="pauseMenu">
-        <div class="gamePause">
-        </div>
-        <div class="restartFromPause">
-            <img src="img/restart.png" alt="" id="restartFromPause">
-        </div>
-
-        <div class="menu">
-            <a href="game.php"><img src="img/menu.png" alt="" id="menu"></a>
-        </div>
-
-        <div class="back">
-            <img src="img/back.png" alt="" id="back">
-        </div>
-    </div>
-
     <div id="game">
-        <div class="sound">
-            <img src="img/SOUND_ON.png" alt="" id="sound">
-        </div>
-        
-        <div id="gameover">
-            <img src="img/youwon.png" alt="" id="youwon">
-            <img src="img/gameover.png" alt="" id="youlose">
-            <div id="restart">Play Again!</div>
-        </div>
+            <div class="pauseMenu" id="pauseMenu">
 
-        <div class="pause">
-            <img src="img/PAUSE_OFF.png" alt="" id="pause">
-        </div>
-    
-        <canvas id="breakout" width="400" height="500" id="game"></canvas>
+                <img src="img/restart.png" alt="" class="restartFromPause" id="restartFromPause">
+
+
+                <a href="game.php"><img src="img/menu.png" alt="" class="menu" id="menu"></a>
+
+
+                <img src="img/back.png" alt="" class="back" id="back">
+
+            </div>
+
+            <div class="pause">
+                <img src="img/PAUSE_OFF.png" alt="" id="pause">
+            </div>
+
+            <div id="gameover">
+                <img src="img/youwon.png" alt="" id="youwon">
+                <img src="img/gameover.png" alt="" id="youlose">
+                <div id="restart">Play Again!</div>
+            </div>
+
+            <div class="sound">
+                <img src="img/SOUND_ON.png" alt="" id="sound">
+            </div>
+
+            <canvas id="breakout" width="400" height="500" id="game"></canvas>
     </div>
     <script>
         /////// LOAD IMAGES ////////
@@ -790,6 +786,8 @@
             GAME_OVER = false;
             loop();
         })
+
+        
 
     </script>
 </body>

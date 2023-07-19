@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/regstyle.css">
 </head>
 <body>
+  <div class="reg__item">
     <div class="nameOfGame">Breakout</div>
     <form action="php/guest.php" method="post">
       <input id="signin" name="action" type="radio" value="signin">
@@ -31,5 +32,6 @@
           Sign up
         </span>
       </button>
+  </div>
 </body>
 </html>

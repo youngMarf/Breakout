@@ -121,13 +121,17 @@ a {
   color: #fff;
 }
 
+.reg__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .nameOfGame {
   text-transform: uppercase;
   font-size: 45px;
   font-weight: 800;
-
-
-  position: absolute;
-    top: 120px;
-    left: 655px;
+  margin-bottom: 450px;
 }

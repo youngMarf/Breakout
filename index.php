@@ -12,6 +12,7 @@ if ($_COOKIE['user'] != '') {
   <link rel="stylesheet" href="css/regstyle.css">
 </head>
 <body>
+  <div class="reg__item">
     <div class="nameOfGame">Breakout</div>
     <form action="php/auth.php" method="post">
       <input checked="" id="signin" name="action" type="radio" value="signin">
@@ -41,5 +42,6 @@ if ($_COOKIE['user'] != '') {
         </span>
       </button>
     </form>
+  </div>
 </body>
 </html>

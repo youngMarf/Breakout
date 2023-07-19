@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="css/styleForGuest.css" type="text/css"/>
 </head>
 <body>
+    <img src="img/bg.jpg" alt="" id="start__bg">
+    
     <div class="start">
         <img src="img/start.png" alt="" id="start">
-        <img src="img/bg.jpg" alt="" id="start__bg">
     </div>
 
     <div class="exit">
